@@ -28,12 +28,12 @@ jobs:
           uses: 'azure/aci-deploy@v1'
           with:
             resource-group: ${{ secrets.RESOURCE_GROUP }}
-            dns-name-label: BramStelt12345
+            dns-name-label: 'bram1234'
             image: ${{ secrets.REGISTRY_LOGIN_SERVER }}/${{ secrets.REPOSITORY_NAME }}:${{ github.run_number }}
             registry-login-server: ${{ secrets.REGISTRY_LOGIN_SERVER }}
             registry-username: ${{ secrets.REGISTRY_USERNAME }}
             registry-password: ${{ secrets.REGISTRY_PASSWORD }}
-            name: BramStelt12345
+            name: bram123
             location: 'west europe'
             ports: '3000'
  
