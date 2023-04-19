@@ -1,6 +1,6 @@
 on: [push]
 
-name: GettingStarted_Container_Workflow
+name: GettingStarted_Container_Workflow1
 
 jobs:
     build-and-deploy:
